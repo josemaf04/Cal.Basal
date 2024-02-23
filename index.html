@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1" name="viewport"/>
     <title>Calculadora de hidratación</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div>
-      <div>
+    <div id="container"> 
+      <div id="calculadora">
+        <div class="contenido">
         <h1>Hidratación Basal</h1>
-        <input type="number" placeholder="Peso en kg" />
-        <button>Calcular</button>
+        <p class="item">Completa todos los datos</p>
+                    <input class="item" id="peso" type="number" placeholder="Peso en kg" />
+                    <p class="item" id="error">* Debe completar todos los datos</p>
+                    <button class="item" id="calcular">Calcular</button>
+                    <p class="item resultado" id="flu">71cc/h</p>
+                    <p class="item resultado" id="man">m+m/2 : 105cc/h</p>
+        </div>
       </div>
-      <div>
+      <div id="detalles">
+        <div class="contenido">
         <h1>¿Como se calcula?</h1>
         <ul>
           <li>De 0kg a 10kg, se calcula 100cc por cada kilo.</li>
