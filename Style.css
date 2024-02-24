@@ -96,12 +96,18 @@ button:active {
     }
     h1{
         font-size: 24px;
+        margin-bottom: 0;
     }
     .contenido{
         padding: 0 25px;
     }
     .contenido ul li{
-        font-size: 12px;
+        font-size: 14px;
+    }
+    .contenido ul {
+        padding: inherit;
+        padding-left: 40px;
+        margin-top: 0;
     }
     .resultado{
         font-size: 18px;
