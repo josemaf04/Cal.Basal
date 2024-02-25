@@ -1,5 +1,8 @@
 body {
     background-color: #ccc;
+    background-image: url("./fondo.png");
+    background-size: cover;
+    background-position-y: 30%;
     font-family: "Open Sans", sans-serif;
     color: #444;
 }
