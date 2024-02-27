@@ -64,6 +64,7 @@ button {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	transition: transform 20ms ease-in;
+    margin-bottom: 25px;
 }
 button:hover {
     background-color: #61bb8e;
@@ -75,12 +76,16 @@ button:active {
     color: red;
     font-weight: bold;
 }
-
+#metodo{
+    font-size: 16px !important;
+    color: #888 !important;
+}
 .resultado{
     color: #61bb8e;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 5px;
+    margin-top: 0;
 }
 .hidden{
     display: none;
